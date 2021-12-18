@@ -1,0 +1,272 @@
+
+/**
+* product image
+**/
+
+#listout {
+    text-align: center;
+    vertical-align: center;
+    height: 60px;
+    z-index: 200;
+    position: fixed;
+    width: 100%;
+    }
+    
+#listin {
+    margin-top: 3px;
+    display: inline-block;
+    font-size: 20px;
+    
+    
+    }
+
+#bar{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+
+.btn,
+.jumbotron,
+.nav :hover {
+    border-radius: 0px;
+}
+
+.product-img {
+    min-height: 100px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.centertext {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+.bruincolor{
+    background-color: #2774AE;
+}
+.cropped {
+    width: 400px; /* width of container */
+    height: 400px; /* height of container */
+    overflow: hidden;
+    
+}
+
+.cropped img {
+    margin: 0px 0px 0px 0px;
+}
+
+.frame {
+    height: 400px;      /* Equals maximum image height */
+    
+    
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    object-fit: cover;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    background: #9c9c9c;
+    vertical-align: middle;
+    
+}
+
+#content{
+    margin-top: 100px;
+    z-index: 200;
+    position: absolute;
+}
+#container {
+    background: #FFD100;
+    height: 600px;
+    width: 100%;
+    
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  #container5 {
+    background: #FFD100;
+    height: 250px;
+    width: 100%;
+    
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  #container2 {
+    background: #2774AE;
+    height: 40px;
+    width: 100%;
+    
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .container2 img {
+    filter: brightness(40%);
+  }
+
+  #container3 {
+    background: #2774AE;
+    height: 60px;
+    width: 100%;
+    
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  #container4 {
+    background: #FFD100;
+    height: 30px;
+    width: 100%;
+    
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  #container6 {
+    position: absolute;
+    z-index: 100;
+    top:40px;
+    background: #ffffff;
+    height: 30px;
+    width: 100%;
+    
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  #image {
+    
+    position: relative;
+    left:0;
+    top: 0;
+    display:block;
+    height: 650px;
+    width: 90%;
+    margin: auto;
+    display: block;
+    
+  }
+  #image2 {
+    
+    position: relative;
+    left:0;
+    bottom:250px;
+    display:block;
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    display: block;
+    
+  }
+  #searchbar{
+    background-color: #2774AE;
+  }
+  #text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 90px;
+    top: 420px;
+  }
+  #text2 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    font:Verdana;
+    font-weight:lighter;
+    left: 400px;
+    top: 125px;
+  }
+  #text2-1 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    background-color: white;
+    font-size: 25px;
+    font:Verdana;
+    
+    font-weight:lighter;
+    left: 695px;
+    top: 163px;
+  }
+  #text2-2 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    background-color: white;
+    font-size: 25px;
+    font:Verdana;
+    
+    font-weight:lighter;
+    left: 0px;
+    top: 163px;
+  }
+  #text3{
+    font-weight:bold;
+  }
+  #text4{
+      
+    font-weight:lighter;
+    text-align: center;
+    font-size:60px;
+}
+#text5 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    font:Verdana;
+    font-weight:lighter;
+    left: 400px;
+    top: 110px;
+  }
+
+  #text6 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    font:Verdana;
+    font-weight:lighter;
+    left: 510px;
+    top: 110px;
+  }
+
+  #bear {
+      margin-left: 180px;
+      width: 500px;
+      height: 250px;
+  }
+
+  #shop-text {
+      font-weight: lighter;
+      font-size: 70px;
+      margin-top: 20px;
+      text-align: center;
+  }
+  #shop-text2 {
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
